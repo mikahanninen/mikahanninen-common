@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mikahanninen"
+version = "0.1.0"
+description = ""
+authors = ["Mika Hänninen <mika.hanninen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rpaframework = "^26.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
